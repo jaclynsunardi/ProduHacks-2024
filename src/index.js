@@ -9,15 +9,8 @@ import reportWebVitals from './reportWebVitals';
 import LoadingScreen from './pages/loadingScreen';
 import HomeScreen from './pages/homeScreen';
 import LoginScreen from './pages/loginScreen';
-import { ClerkProvider } from '@clerk/clerk-react'
 import ProgressScreen from './pages/progressScreen';
-const PUBLISHABLE_KEY = "pk_test_dW5jb21tb24tdG9ydG9pc2UtNjguY2xlcmsuYWNjb3VudHMuZGV2JA";
- 
-if (!PUBLISHABLE_KEY) {
-  throw new Error("Missing Publishable Key")
-}
- 
-
+import ActivityScreen from './pages/activityScreen';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,14 +28,16 @@ const router = createBrowserRouter([
     path: "/progess",
     element: <ProgressScreen />,
   },
+  {
+    path: "/activity",
+    element: <ActivityScreen />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
   <RouterProvider router={router} />
-  </ClerkProvider>
 </React.StrictMode>
 );
 
