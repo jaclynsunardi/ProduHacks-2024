@@ -11,11 +11,6 @@ export default function AddActivityScreen () {
   return (
     <>
       <div className="div">
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/09307d20bc0dfc4d761c974bcc61e6be23b112e34a4d574451b9e3a6e8559245?"
-          className="img"
-        />
         <div className="div-2">
           <div className="div-3">
             <button onClick={toHome} className='div-4'>Back</button>
