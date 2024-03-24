@@ -9,10 +9,10 @@ import reportWebVitals from './reportWebVitals';
 import LoadingScreen from './pages/loadingScreen';
 import HomeScreen from './pages/homeScreen';
 import LoginScreen from './pages/loginScreen';
-
 import ProgressScreen from './pages/progressScreen';
- 
+import ActivityScreen from './pages/activityScreen';
 import AddActivityScreen from './pages/addActivityScreen';
+
 
 const router = createBrowserRouter([
   {
@@ -30,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/progess",
     element: <ProgressScreen />,
+  },
+  {
+    path: "/activity",
+    element: <ActivityScreen />,
   },
   {
     path: "/addactivity",
