@@ -1,4 +1,4 @@
-import './CSS/loadingScreen.css';
+import '../css/loadingScreen.css';
 export default function LoadingScreen () {
   return (
     <div className = "Loading_Screen">

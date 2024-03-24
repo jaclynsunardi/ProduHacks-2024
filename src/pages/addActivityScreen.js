@@ -1,4 +1,4 @@
-import '../App.css';
+import '../css/global.css';
 
 export default function AddActivityScreen () {
     return (
