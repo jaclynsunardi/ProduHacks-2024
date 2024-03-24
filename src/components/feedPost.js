@@ -3,27 +3,36 @@ import '../css/homeScreen.css';
 export default function FeedPost () {
   return (
       <div className>
-        <div class="post-header">
+        <div className="post-header">
           <img src="Group_5.png" />
-          <div class="post-name">John Smith</div>
-          <div class = "timeStamp">Today at 4:03 PM</div>
+          <div className="post-name">John Smith</div>
+          <div className = "timeStamp">Today at 4:03 PM</div>
         </div>
-        <div class="post-title">Afternoon Chest Workout</div>
-        <div class="post-stats">
-          <div class = "header">
-            <p>Time</p>
-            <p>Abg HR</p>
-            <p>Cal</p>
+        <div className="post-title">Afternoon Chest Workout</div>
+        <div className="post-stats">
+          <div className = "stats-header">
+            <div>Time</div>
+            <div>Avg HR</div>
+            <div>Cal</div>
           </div>
-          <div class ="stat">
-            <p>1h 7m</p>
-            <p>105 bpm</p>
-            <p>338 Cal</p>
+          <div className ="stat-value">
+            <div>1h 7m</div>
+            <div>105 bpm</div>
+            <div>338 Cal</div>
           </div>
         </div>
-        <div class="post-actions">
-          Action bar
+        <div className="post-actions">
+          <div className='post-action'>
+            <img src = "Thumbs-up.png"/>
+          </div>
+          <div className='post-action'>
+            <img src = "Chat.png"/>
+          </div>
+          <div className='post-action'>
+            <img src = "Share_iOS.png" />
+          </div>
         </div>
       </div>
   );
 }
+
