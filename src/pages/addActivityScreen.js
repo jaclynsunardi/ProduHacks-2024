@@ -38,8 +38,8 @@ export default function AddActivityScreen () {
             </div>
           </div>
           <div className="div-12">Activity Stats</div>
-          <div className="div-13">Today, 9:41 PM</div>
-          <div className="div-14">1h 25m</div>
+          <input type="text" value="24-03-2024, 9:41 PM" className="div-13"></input>
+          <input type="text" value="1h 25m" className="div-14"></input>
           <div className="div-15">
             <div className="div-16">
               <div className="div-17"> Squats | 3 sets | 8 reps | 150lbs</div>
