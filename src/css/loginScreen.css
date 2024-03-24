@@ -25,7 +25,7 @@
     width: 343px;
     max-width: 100%;
     align-items: start;
-    color: var(--Gray-03, #bdbdbd);
+    color: var(--Gray-03, #6a6a6a);
     white-space: nowrap;
     justify-content: center;
     padding: 19px 16px;
@@ -49,7 +49,7 @@
     padding: 19px 16px;
   }
   .password {
-    color: var(--Gray-03, #bdbdbd);
+    color: var(--Gray-03, #6a6a6a);
     font-family: Inter, sans-serif;
   }
   .showbutton {

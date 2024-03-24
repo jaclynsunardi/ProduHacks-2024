@@ -11,13 +11,10 @@ export default function LoginScreen () {
   return (
     <>
       <div className="div">
-
         <div className="login">Log In</div>
-        <div className="email">Email</div>
-        <div className="passwordbox">
-          <div className="password">Password</div>
-          <div className="showbutton">Show</div>
-        </div>
+        <input type="text" placeholder="Email" className="email"></input>
+        <input type="password" placeholder="Password" className="passwordbox">
+        </input>
         <button className="loginbutton" onClick={handleLoginClick}>Log In</button> 
         <div className="forgetpass">Forgot your password?</div>
         <div className="div2" />
