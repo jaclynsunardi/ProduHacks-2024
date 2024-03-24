@@ -5,18 +5,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoadingScreen from './pages/loadingScreen';
+import HomeScreen from './pages/homeScreen';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <LoadingScreen />,
   },
   {
     path: "/home",
-    element: <LoadingScreen />,
+    element: <HomeScreen />,
   },
 ]);
 
