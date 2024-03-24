@@ -1,0 +1,19 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a img {
+  border-radius: 50px;
+  background-color: #D5CFFF;
+}

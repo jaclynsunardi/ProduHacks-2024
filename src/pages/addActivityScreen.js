@@ -1,6 +1,7 @@
 import * as React from "react";
 import '../css/addActivity.css';
 import { useNavigate } from "react-router-dom";
+import NavBar from "../components/navbar.js";
 
 export default function AddActivityScreen () {
   let navigate = useNavigate();
@@ -52,19 +53,8 @@ export default function AddActivityScreen () {
             </div>
           </div>
           <input type='text' placeholder='Notes' className="div-23" />
-          <div className="div-24">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3b56f603ae7885ce66bf71dd9ab77ac0140bc9efea9107f6964c96c69b713b6?"
-              className="img-3"
-            />
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="img-4"
-            />
-          </div>
         </div>
+        <NavBar />
       </div>
     </>
   );
