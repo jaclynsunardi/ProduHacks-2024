@@ -5,6 +5,8 @@ export default function HomeScreen () {
       <div>
         <h1>Home</h1>
         <FeedPost />
+        <FeedPost />
+        <FeedPost />
       </div>
   );
 }
