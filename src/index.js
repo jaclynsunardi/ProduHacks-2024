@@ -28,11 +28,12 @@ const router = createBrowserRouter([
     element: <HomeScreen />,
   },
   {
-    path: "/progess",
+    path: "/progress", 
     element: <ProgressScreen />,
   },
+  
   {
-    path: "/activity",
+    path: "/activities",
     element: <ActivityScreen />,
   },
   {

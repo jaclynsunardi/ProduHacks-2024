@@ -1,5 +1,6 @@
 import * as React from "react";
 import "../css/activity.css";
+import NavBar from "../components/navbar.js";
 
 export default function ActivityScreen() {
 
@@ -75,6 +76,7 @@ export default function ActivityScreen() {
           ))}
 
         </div>
+        <NavBar />
       </div>
     </>
   );
