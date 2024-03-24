@@ -1,0 +1,123 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .HomeScreen {
+    background-color: white;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+.header {
+    text-align: center;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+.post-name {
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+.timeStamp {
+    font-size: 12px;
+    margin-left: 80px;
+    color: gray;
+}
+
+.post-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.stats-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.stats-header div {
+    padding: 10px;
+    color: gray;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.stat-value {
+    display: flex;
+    flex-direction: row;
+}
+
+.stat-value div {
+    padding: 0px;
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.post-actions:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.post-action {
+    float: left;
+    width: calc(33.33% - 1px);
+    text-align: center;
+    background-color: lightgray;
+}
+
+.post-action:not(:last-child) {
+    border-right: 1px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: black;
+    border-style: solid;
+}
+
+.search-bar {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 1rem 15rem rgba(0,0,0.6);
+}
+
+.search-bar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: none;
+}
+
+.App-link {
+color: #61dafb;
+}
+  

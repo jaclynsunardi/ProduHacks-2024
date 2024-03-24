@@ -9,6 +9,7 @@ export default function LoginScreen() {
     navigate('/home'); // Use the path for the page you want to navigate to
   };
 
+export default function LoginScreen () {
   return (
     <>
       <div className="div">
