@@ -8,6 +8,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import LoadingScreen from './pages/loadingScreen';
 import HomeScreen from './pages/homeScreen';
+import AddActivityScreen from './pages/addActivityScreen';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <HomeScreen />,
+  },
+  {
+    path: "/addactivity",
+    element: <AddActivityScreen />,
   },
 ]);
 
