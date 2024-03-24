@@ -1,0 +1,25 @@
+.add-activity-header {
+  padding: 16px 0;
+}
+
+.add-activity-header button {
+  margin-top: 16px;
+  color: #968CE0;
+  font-size: 16px;
+}
+
+.header-back-button {
+  float: left;
+  margin-left: 16px;
+}
+
+.header-title {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.header-publish-button {
+  float: right;
+  margin-right: 16px;
+}

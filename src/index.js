@@ -8,12 +8,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import LoadingScreen from './pages/loadingScreen';
 import HomeScreen from './pages/homeScreen';
+import LoginScreen from './pages/loginScreen';
 import AddActivityScreen from './pages/addActivityScreen';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LoadingScreen />,
+  },
+  {
+    path: "/login",
+    element: <LoginScreen />,
   },
   {
     path: "/home",
