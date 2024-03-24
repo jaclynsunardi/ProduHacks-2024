@@ -1,11 +1,14 @@
-import { Routes } from './Routes';
 import logo from './logo.svg';
 import './App.css';
 
 
 function App() {
   return (
-    <Routes />
+    <div className="App">
+      <div className = "Loading_Screen">
+        <img src = "Logo.png" alt = "Logo"/>
+      </div>
+    </div>
   );
 }
 
