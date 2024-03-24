@@ -1,5 +1,4 @@
-import '../App.css';
-
+import './CSS/loadingScreen.css';
 export default function LoadingScreen () {
   return (
     <div className = "Loading_Screen">
