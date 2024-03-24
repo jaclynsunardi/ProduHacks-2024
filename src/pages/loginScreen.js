@@ -2,14 +2,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/loginScreen.css";
 
-export default function LoginScreen() {
+export default function LoginScreen () {
   const navigate = useNavigate();
 
   const handleLoginClick = () => {
     navigate('/home'); // Use the path for the page you want to navigate to
   };
-
-export default function LoginScreen () {
   return (
     <>
       <div className="div">

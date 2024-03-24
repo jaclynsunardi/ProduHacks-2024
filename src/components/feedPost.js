@@ -1,6 +1,15 @@
 import '../css/homeScreen.css';
+import React, { useState } from 'react';
 
-export default function FeedPost () {
+export default function FeedPost ({ handleClick }) {
+  const [isLiked, setIsLiked] = useState(false);
+  
+  const toggleLike = () => {
+    setIsLiked(!isLiked);
+  }
+  
+  const likeSrc = isLiked ? 'Thumbs-up-liked.png' : 'Thumbs-up.png';
+  
   return (
       <div className>
         <div className="post-header">
@@ -22,8 +31,8 @@ export default function FeedPost () {
           </div>
         </div>
         <div className="post-actions">
-          <div className='post-action'>
-            <img src = "Thumbs-up.png"/>
+          <div className='post-action' onClick={toggleLike}>
+            <img src = {likeSrc} />
           </div>
           <div className='post-action'>
             <img src = "Chat.png"/>
