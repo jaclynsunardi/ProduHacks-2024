@@ -17,8 +17,15 @@ export default function AddActivityScreen () {
             <div className="div-5">Add Activity</div>
             <button onClick={toHome} className='div-6'>Publish</button>
           </div>
-          <div className="div-7">Evening Workout</div>
-          <div className="div-8">Type of workout</div>
+          <input type='text' placeholder='Evening Workout' className="div-7" />
+          <select className="div-8">
+            <option value="full body">Full Body Workout</option>
+            <option value="legs">Legs Workout</option>
+            <option value="arms">Arms Workout</option>
+            <option value="chest">Chest Workout</option>
+            <option value="back">Back Workout</option>
+            <option value="mobility">Mobility Workout</option>
+          </select>
           <div className="div-9">
             <div className="div-10">
               <img
@@ -41,11 +48,10 @@ export default function AddActivityScreen () {
               <div className="div-19"> Deadlift | 4 sets | 5 reps | 160lbs</div>
             </div>
             <div className="div-20">
-              <div className="div-21" />
-              <div className="div-22" />
+              <img src="plus-icon.png"></img>
             </div>
           </div>
-          <div className="div-23">Notes</div>
+          <input type='text' placeholder='Notes' className="div-23" />
           <div className="div-24">
             <img
               loading="lazy"
