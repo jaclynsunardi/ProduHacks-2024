@@ -11,18 +11,21 @@ import HomeScreen from './pages/homeScreen';
 import LoginScreen from './pages/loginScreen';
 import ProgressScreen from './pages/progressScreen';
 import ActivityScreen from './pages/activityScreen';
+import AddActivityScreen from './pages/addActivityScreen';
+
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LoadingScreen />,
   },
   {
-    path: "/home",
-    element: <HomeScreen />,
-  },
-  {
     path: "/login",
     element: <LoginScreen />,
+  },
+  {
+    path: "/home",
+    element: <HomeScreen />,
   },
   {
     path: "/progess",
@@ -31,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/activity",
     element: <ActivityScreen />,
+  },
+  {
+    path: "/addactivity",
+    element: <AddActivityScreen />,
   },
 ]);
 
