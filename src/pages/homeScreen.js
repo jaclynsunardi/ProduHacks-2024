@@ -7,7 +7,13 @@ export default function HomeScreen () {
       <div className = "HomeScreen">
         <div className = "header">
           <h1>Home</h1>
-        </div>        
+        </div>
+        <div class = "search-bar">
+          <input type = "text" placeholder="Type here..." />
+        </div>
+        <FeedPost/>
+        <FeedPost />
+        <FeedPost />
       </div>
-  );
+  )
 }
